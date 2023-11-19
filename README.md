@@ -12,8 +12,10 @@ Before you begin, ensure you have the following required files:
 ## Setup
 
 1. Clone this repository to your local machine using `git clone`.
-2. Ensure that the `checkpoint` folder is placed in the root directory of the cloned repository. If you move the .cat file, make sure to point to it using the group's model file knob.
-3. Try out the example jpg included from Poly Haven or plug in your own to try out.
+2. Ensure that the `checkpoint` folder is placed in the root directory of the cloned repository.
+3. Open the included script.
+   If you move the .cat file, make sure to point to it using the group's model file knob.
+4. Try out the example jpg included from Poly Haven or plug in your own to try out.
 
 
 ## Limitations
