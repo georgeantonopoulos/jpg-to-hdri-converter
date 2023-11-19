@@ -1,0 +1,61 @@
+set cut_paste_input [stack 0]
+version 15.0 v1
+Read {
+inputs 0
+file_type jpeg
+file /Users/georgeantonopoulos/Dev/HDRI/set_2/basement_boxing_ring_8k.jpg
+format "8192 4096 0 0 8192 4096 1 8K_LatLong"
+origset true
+name Read36
+selected true
+xpos 531
+ypos 725
+}
+Reformat {
+type scale
+scale 0.5
+name Reformat1
+selected true
+xpos 531
+ypos 805
+}
+Group {
+name jpg_to_hdri
+tile_color 0x5e70ff
+label CAT
+selected true
+xpos 531
+ypos 829
+addUserKnob {20 User}
+addUserKnob {41 modelFile l "Model File" T Inference1.modelFile}
+}
+Input {
+inputs 0
+name Input1
+xpos 582
+ypos 265
+}
+Log2Lin {
+operation lin2log
+name Log2Lin5
+xpos 582
+ypos 305
+}
+Inference {
+modelFile "\[file dirname \[value root.name]]/checkpoint/jpg_to_hdri.cat"
+serialiseKnob {}
+name Inference1
+xpos 582
+ypos 329
+}
+Log2Lin {
+name Log2Lin6
+xpos 582
+ypos 353
+}
+Output {
+name Output1
+xpos 582
+ypos 453
+}
+end_group
