@@ -27,10 +27,6 @@ its effect on rectilenear images is unknown!
 
 Contributions to improve the model are welcome. Please submit a pull request or open an issue if you have suggestions or contributions.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
 ## Aknowledgements
 
 Poly Haven for the test hdris and The Foundry for its amazing CopyCat tool. 
