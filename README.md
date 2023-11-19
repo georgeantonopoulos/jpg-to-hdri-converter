@@ -1,6 +1,6 @@
 # JPG to HDRI Converter
 
-This repository contains a machine learning model designed to convert 8-bit JPG images to 16-bit High Dynamic Range Images (HDRI). The model is currently at an early training stage and is expected to improve over time.
+This repository contains a model created using The Foundry's CopyCat tool, designed to convert 8-bit JPG images to 16-bit High Dynamic Range Images (HDRI). The model is currently at an early training stage and is expected to improve over time.
 
 ## Prerequisites
 
